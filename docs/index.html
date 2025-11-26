@@ -61,6 +61,12 @@
         max-width: 100%;
         border-radius: 8px;
       }
+      .qr {
+        width: 600px;      /* adjust this size */
+        max-width: 600px;  /* prevents scaling */
+        display: block;
+        margin: 0 auto;    /* center it */
+      }
     </style>
   <style type="text/css" id="operaUserStyle">
   video {
@@ -114,7 +120,10 @@
 
       <section>
         <h2>⬇️ Download</h2>
-        
+        <ul>
+          <li>Download using QR Code 🙂</li>
+        </ul>
+        <img src="QRcode.jpeg" class="qr" alt="Download QR"> 
       </section>
     </div>
 
